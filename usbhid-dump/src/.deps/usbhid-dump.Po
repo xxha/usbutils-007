@@ -1,0 +1,204 @@
+usbhid-dump.o usbhid-dump.o: usbhid-dump.c ../config.h \
+  /home/xxha/tools/libusb/usbutils/usbutils-007/usbhid-dump/include/uhd/iface_list.h \
+  /home/xxha/tools/libusb/usbutils/usbutils-007/usbhid-dump/include/uhd/dev_list.h \
+  /home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../lib/gcc/arm-none-linux-gnueabi/4.1.2/include/stddef.h \
+  /home/xxha/tools/libusb/usbutils/usbutils-007/usbhid-dump/include/uhd/dev.h \
+  /home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../lib/gcc/arm-none-linux-gnueabi/4.1.2/include/stdbool.h \
+  /home/xxha/tools/libusb/usbutils/usbutils-007/usbhid-dump/include/uhd/libusb.h \
+  /usr/local/include/libusb-1.0/libusb.h \
+  /home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/stdint.h \
+  /home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/features.h \
+  /home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/sys/cdefs.h \
+  /home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/bits/wordsize.h \
+  /home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/gnu/stubs.h \
+  /home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/bits/wchar.h \
+  /home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/sys/types.h \
+  /home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/bits/types.h \
+  /home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/bits/typesizes.h \
+  /home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/time.h \
+  /home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/endian.h \
+  /home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/bits/endian.h \
+  /home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/sys/select.h \
+  /home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/bits/select.h \
+  /home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/bits/sigset.h \
+  /home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/bits/time.h \
+  /home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/sys/sysmacros.h \
+  /home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/bits/pthreadtypes.h \
+  /home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/sys/time.h \
+  /home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../lib/gcc/arm-none-linux-gnueabi/4.1.2/include/limits.h \
+  /home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../lib/gcc/arm-none-linux-gnueabi/4.1.2/include/syslimits.h \
+  /home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/limits.h \
+  /home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/bits/posix1_lim.h \
+  /home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/bits/local_lim.h \
+  /home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/linux/limits.h \
+  /home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/bits/posix2_lim.h \
+  /home/xxha/tools/libusb/usbutils/usbutils-007/usbhid-dump/include/uhd/iface.h \
+  /home/xxha/tools/libusb/usbutils/usbutils-007/usbhid-dump/include/uhd/libusb.h \
+  /home/xxha/tools/libusb/usbutils/usbutils-007/usbhid-dump/include/uhd/misc.h \
+  /home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/assert.h \
+  /home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/ctype.h \
+  /home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/string.h \
+  /home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/errno.h \
+  /home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/bits/errno.h \
+  /home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/linux/errno.h \
+  /home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/asm/errno.h \
+  /home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/asm-generic/errno.h \
+  /home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/asm-generic/errno-base.h \
+  /home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/signal.h \
+  /home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/bits/signum.h \
+  /home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/bits/siginfo.h \
+  /home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/bits/sigaction.h \
+  /home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/bits/sigcontext.h \
+  /home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/asm/sigcontext.h \
+  /home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/bits/sigstack.h \
+  /home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/bits/sigthread.h \
+  /home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/stdlib.h \
+  /home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/alloca.h \
+  /home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/unistd.h \
+  /home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/bits/posix_opt.h \
+  /home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/bits/confname.h \
+  /home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/getopt.h \
+  /home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/stdio.h \
+  /home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/libio.h \
+  /home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/_G_config.h \
+  /home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/wchar.h \
+  /home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/gconv.h \
+  /home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../lib/gcc/arm-none-linux-gnueabi/4.1.2/include/stdarg.h \
+  /home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/bits/stdio_lim.h \
+  /home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/bits/sys_errlist.h
+
+../config.h:
+
+/home/xxha/tools/libusb/usbutils/usbutils-007/usbhid-dump/include/uhd/iface_list.h:
+
+/home/xxha/tools/libusb/usbutils/usbutils-007/usbhid-dump/include/uhd/dev_list.h:
+
+/home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../lib/gcc/arm-none-linux-gnueabi/4.1.2/include/stddef.h:
+
+/home/xxha/tools/libusb/usbutils/usbutils-007/usbhid-dump/include/uhd/dev.h:
+
+/home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../lib/gcc/arm-none-linux-gnueabi/4.1.2/include/stdbool.h:
+
+/home/xxha/tools/libusb/usbutils/usbutils-007/usbhid-dump/include/uhd/libusb.h:
+
+/usr/local/include/libusb-1.0/libusb.h:
+
+/home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/stdint.h:
+
+/home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/features.h:
+
+/home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/sys/cdefs.h:
+
+/home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/bits/wordsize.h:
+
+/home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/gnu/stubs.h:
+
+/home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/bits/wchar.h:
+
+/home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/sys/types.h:
+
+/home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/bits/types.h:
+
+/home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/bits/typesizes.h:
+
+/home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/time.h:
+
+/home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/endian.h:
+
+/home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/bits/endian.h:
+
+/home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/sys/select.h:
+
+/home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/bits/select.h:
+
+/home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/bits/sigset.h:
+
+/home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/bits/time.h:
+
+/home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/sys/sysmacros.h:
+
+/home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/bits/pthreadtypes.h:
+
+/home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/sys/time.h:
+
+/home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../lib/gcc/arm-none-linux-gnueabi/4.1.2/include/limits.h:
+
+/home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../lib/gcc/arm-none-linux-gnueabi/4.1.2/include/syslimits.h:
+
+/home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/limits.h:
+
+/home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/bits/posix1_lim.h:
+
+/home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/bits/local_lim.h:
+
+/home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/linux/limits.h:
+
+/home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/bits/posix2_lim.h:
+
+/home/xxha/tools/libusb/usbutils/usbutils-007/usbhid-dump/include/uhd/iface.h:
+
+/home/xxha/tools/libusb/usbutils/usbutils-007/usbhid-dump/include/uhd/libusb.h:
+
+/home/xxha/tools/libusb/usbutils/usbutils-007/usbhid-dump/include/uhd/misc.h:
+
+/home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/assert.h:
+
+/home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/ctype.h:
+
+/home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/string.h:
+
+/home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/errno.h:
+
+/home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/bits/errno.h:
+
+/home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/linux/errno.h:
+
+/home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/asm/errno.h:
+
+/home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/asm-generic/errno.h:
+
+/home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/asm-generic/errno-base.h:
+
+/home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/signal.h:
+
+/home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/bits/signum.h:
+
+/home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/bits/siginfo.h:
+
+/home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/bits/sigaction.h:
+
+/home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/bits/sigcontext.h:
+
+/home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/asm/sigcontext.h:
+
+/home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/bits/sigstack.h:
+
+/home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/bits/sigthread.h:
+
+/home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/stdlib.h:
+
+/home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/alloca.h:
+
+/home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/unistd.h:
+
+/home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/bits/posix_opt.h:
+
+/home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/bits/confname.h:
+
+/home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/getopt.h:
+
+/home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/stdio.h:
+
+/home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/libio.h:
+
+/home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/_G_config.h:
+
+/home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/wchar.h:
+
+/home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/gconv.h:
+
+/home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../lib/gcc/arm-none-linux-gnueabi/4.1.2/include/stdarg.h:
+
+/home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/bits/stdio_lim.h:
+
+/home/xxha/cross_compile/gcc-4.1.2-glibc-2.5-nptl-3/arm-none-linux-gnueabi/bin/../arm-none-linux-gnueabi/sysroot/usr/include/bits/sys_errlist.h:
